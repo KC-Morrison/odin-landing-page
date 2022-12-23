@@ -45,6 +45,13 @@ button {
 	font-size: 18px;
 }
 
+q {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1f2937;
+}
+
 .hero {
 	background-color: #1f2937;
 }
@@ -86,4 +93,25 @@ a {
 .information-section img {
 	height: 180px;
 	border-radius: 8%;
+}
+
+.quote-section {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1f2937;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.author {
+	font-size: 22px;
+	font-weight: 900;
+	align-self: flex-end;
 }
