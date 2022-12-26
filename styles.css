@@ -57,6 +57,13 @@ q {
 	color: #1f2937;
 }
 
+footer {
+	color: white;
+	background-color: #1f2937;
+	text-align: center;
+	padding: 40px;
+}
+
 .hero {
 	background-color: #1f2937;
 }
@@ -105,6 +112,7 @@ a {
 	background-color: #e5e7eb;
 	display: flex;
 	flex-direction: column;
+	padding: 100px;
 }
 
 .quote {
@@ -113,13 +121,14 @@ a {
 	font-weight: lighter;
 	color: #1f2937;
 	font-family: sans-serif;
-	text-align: center;
+	margin: 0 0 20px 0;
 }
 
 .author {
 	font-size: 22px;
 	font-weight: 900;
 	align-self: flex-end;
+	margin: 0;
 }
 
 .cta-section {
@@ -145,4 +154,8 @@ a {
 
 .cta-container p {
 	margin: 5px;
+}
+
+footer p {
+	margin: 0;
 }
